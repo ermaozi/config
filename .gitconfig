@@ -1,13 +1,14 @@
 [user]
-	name = ermaozi
-	email = 747761541@qq.com
+name = ermaozi
+email = 747761541@qq.com
+
 [credential]
-	helper = manager
+helper = manager
 
 [alias]
-    st = status
-    aa = add -A
-    br = branch
-    cmm = commit -m
-	last = log -1
-	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+st = status
+aa = add -A
+br = branch
+cmm = commit -m
+last = log -1
+lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
