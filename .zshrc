@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="~/.oh-my-zsh"
+export ZSH="$(cd ~/.oh-my-zsh;pwd)"
 # 修改 ls 显示颜色
 export LS_COLORS=${LS_COLORS}:'di=01;94:ex=00;92'
 
