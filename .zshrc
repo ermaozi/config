@@ -1,6 +1,3 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
 # Path to your oh-my-zsh installation.
 export ZSH="$(cd ~/.oh-my-zsh;pwd)"
 # 修改 ls 显示颜色
@@ -37,3 +34,8 @@ export ARCHFLAGS="-arch x86_64"
 # 使用 PgUp/PgDown 进行历史记录检索
 bindkey "^[[5~" history-beginning-search-backward
 bindkey "^[[6~" history-beginning-search-forward
+
+# 关闭shell讨厌的提示音
+unsetopt beep
+
+alias ssh="ssh -o ServerAliveInterval=5"
