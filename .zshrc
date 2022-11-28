@@ -39,3 +39,5 @@ bindkey "^[[6~" history-beginning-search-forward
 unsetopt beep
 
 alias ssh="ssh -o ServerAliveInterval=5"
+alias docker="sudo docker"
+alias vim="sudo vim"
