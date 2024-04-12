@@ -6,8 +6,8 @@
 # 安装oh-my-zsh
 sudo apt install zsh -y
 chsh -s /bin/zsh
-reboot
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-echo "source <(curl -sL https://cdn.jsdelivr.net/gh/ermaozi/config/.zshrc)" > ~/.zshrc
+curl -sL https://cdn.jsdelivr.net/gh/ermaozi/config/.zshrc > ~/.zshrc
 source ~/.zshrc
+reboot
 ```
