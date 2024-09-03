@@ -6,6 +6,11 @@ export LS_COLORS=${LS_COLORS}:'di=01;94:ex=00;92'
 # oh-my-zsh 主题
 ZSH_THEME="ys"
 
+# 自动修改terminal标题
+DISABLE_AUTO_TITLE="true"
+ZSH_THEME_TERM_TITLE_IDLE="%~"
+echo -ne "\033]0;$(hostname)\007"
+
 # Uncomment the following line to enable command auto-correction.
 ENABLE_CORRECTION="true"
 
@@ -41,3 +46,4 @@ unsetopt beep
 alias ssh="ssh -o ServerAliveInterval=5"
 alias docker="sudo docker"
 alias vim="sudo vim"
+alias apt="sudo apt"
