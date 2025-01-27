@@ -14,6 +14,9 @@ echo -ne "\033]0;$(hostname)\007"
 # Uncomment the following line to enable command auto-correction.
 ENABLE_CORRECTION="true"
 
+# 禁用自动更新
+DISABLE_UPDATE_PROMPT=true
+
 # Uncomment the following line to display red dots whilst waiting for completion.
 COMPLETION_WAITING_DOTS="true"
 
